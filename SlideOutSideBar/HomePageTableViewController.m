@@ -47,7 +47,7 @@ NSArray *menuItemsHome;
     
     getStats *retrieveStats = [[getStats alloc]init];
     
-    [retrieveStats getData:self.tableView];
+    [retrieveStats getData:self.tableView nbTrx:_labelNbTrx amountTrx:_labelAmountTrx];
     
 }
 

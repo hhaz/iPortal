@@ -10,10 +10,13 @@
 
 @implementation getStats
 
-- (void)getData:(UITableView *)myTable {
+- (void)getData:(UITableView *)myTable nbTrx:(UILabel *)nbTrx amountTrx:(UILabel *)amountTrx{
     
+
     
-    NSString *restCallString = [NSString stringWithFormat:@"%@/api/getTrx?montantMin=%@&montantMax=%@",_appDelegate.trxServerURL,_minAmount, _maxAmount];
+    _appDelegate = (AppDelegate *)[[UIApplication sharedApplication] delegate];
+    
+    NSString *restCallString = [NSString stringWithFormat:@"%@/api/getStats?montantMin=%@&montantMax=%@",_appDelegate.trxServerURL,_appDelegate.minAmount, _appDelegate.maxAmount];
     
     
     NSURLSession *session = [NSURLSession sharedSession];
@@ -35,16 +38,33 @@
                                                           error:&jsonError];
                         
                         if (!jsonError) {
-                            _numberOfTrx = dataJSON[@"totalRows"];
-                            _dataTrx = dataJSON[@"trx"];
+                            NSNumber *numberOfTrx;
+                            NSNumber *sumTrx;
+                            
+                            numberOfTrx = dataJSON[@"response"][@"numFound"];
+                            sumTrx = dataJSON[@"stats"][@"stats_fields"][@"Amount"][@"sum"];
+                            
+                            dispatch_async(dispatch_get_main_queue(), ^{
+                                
+                                NSNumberFormatter *formatter = [[NSNumberFormatter alloc] init];
+                                NSString *groupingSeparator = [[NSLocale currentLocale] objectForKey:NSLocaleGroupingSeparator];
+                                [formatter setGroupingSeparator:groupingSeparator];
+                                [formatter setGroupingSize:3];
+                                [formatter setAlwaysShowsDecimalSeparator:NO];
+                                [formatter setUsesGroupingSeparator:YES];
+                                
+                                nbTrx.text =  [numberOfTrx stringValue];
+                                amountTrx.text = [sumTrx stringValue];
+                                
+                                 nbTrx.text  = [formatter stringFromNumber:numberOfTrx];
+                                 amountTrx.text = [formatter stringFromNumber:sumTrx];
+                                [myTable reloadData];
+                            });
+                            
                         }
-                        [myTable performSelectorOnMainThread:@selector(reloadData) withObject:nil waitUntilDone:NO];
                     }
                 }
             }] resume];
 }
-
-
-
 
 @end

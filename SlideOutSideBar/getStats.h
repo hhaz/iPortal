@@ -13,10 +13,8 @@
 
 @property (nonatomic, retain) NSString *minAmount;
 @property (nonatomic, retain) NSString *maxAmount;
-@property (nonatomic, strong) NSNumber *numberOfTrx;
-@property (nonatomic, strong) NSArray *dataTrx;
 @property (nonatomic, retain) AppDelegate *appDelegate;
 
-- (void)getData:(UITableView *)myTable;
+- (void)getData:(UITableView *)myTable nbTrx:(UILabel *)minAmount amountTrx:(UILabel *)maxAmount;
 
 @end
