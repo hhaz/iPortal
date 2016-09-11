@@ -726,6 +726,7 @@
 				633399E51D820EA000DD1891 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
