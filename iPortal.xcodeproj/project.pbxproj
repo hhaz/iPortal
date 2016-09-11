@@ -22,10 +22,6 @@
 		633399B41D7C648B00DD1891 /* FiltersTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 633399B31D7C648B00DD1891 /* FiltersTableViewController.m */; };
 		633399B71D7E00F700DD1891 /* ManageDefaults.m in Sources */ = {isa = PBXBuildFile; fileRef = 633399B61D7E00F700DD1891 /* ManageDefaults.m */; };
 		633399BA1D7E0FDD00DD1891 /* displayTrx.m in Sources */ = {isa = PBXBuildFile; fileRef = 633399B91D7E0FDD00DD1891 /* displayTrx.m */; };
-		633399D71D820EA000DD1891 /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 633399C11D81EA8400DD1891 /* NotificationCenter.framework */; };
-		633399DB1D820EA000DD1891 /* TodayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 633399DA1D820EA000DD1891 /* TodayViewController.m */; };
-		633399DE1D820EA000DD1891 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 633399DC1D820EA000DD1891 /* MainInterface.storyboard */; };
-		633399E21D820EA000DD1891 /* iPortal Today.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 633399D61D820EA000DD1891 /* iPortal Today.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		633399E81D84191400DD1891 /* getStats.m in Sources */ = {isa = PBXBuildFile; fileRef = 633399E71D84191400DD1891 /* getStats.m */; };
 /* End PBXBuildFile section */
 
@@ -44,13 +40,6 @@
 			remoteGlobalIDString = 6333995F1D7C1AFD00DD1891;
 			remoteInfo = SlideOutSideBar;
 		};
-		633399E01D820EA000DD1891 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 633399581D7C1AFD00DD1891 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 633399D51D820EA000DD1891;
-			remoteInfo = "iPortal Today";
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -60,7 +49,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				633399E21D820EA000DD1891 /* iPortal Today.appex in Embed App Extensions */,
 			);
 			name = "Embed App Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -97,11 +85,6 @@
 		633399B81D7E0FDD00DD1891 /* displayTrx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = displayTrx.h; sourceTree = "<group>"; };
 		633399B91D7E0FDD00DD1891 /* displayTrx.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = displayTrx.m; sourceTree = "<group>"; };
 		633399C11D81EA8400DD1891 /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
-		633399D61D820EA000DD1891 /* iPortal Today.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "iPortal Today.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
-		633399D91D820EA000DD1891 /* TodayViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TodayViewController.h; sourceTree = "<group>"; };
-		633399DA1D820EA000DD1891 /* TodayViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TodayViewController.m; sourceTree = "<group>"; };
-		633399DD1D820EA000DD1891 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
-		633399DF1D820EA000DD1891 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		633399E61D84191400DD1891 /* getStats.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = getStats.h; sourceTree = "<group>"; };
 		633399E71D84191400DD1891 /* getStats.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = getStats.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -128,14 +111,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		633399D31D820EA000DD1891 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				633399D71D820EA000DD1891 /* NotificationCenter.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -145,7 +120,6 @@
 				633399621D7C1AFD00DD1891 /* iPortal */,
 				6333997F1D7C1AFD00DD1891 /* SlideOutSideBarTests */,
 				6333998A1D7C1AFD00DD1891 /* SlideOutSideBarUITests */,
-				633399D81D820EA000DD1891 /* iPortal Today */,
 				633399C01D81EA8400DD1891 /* Frameworks */,
 				633399611D7C1AFD00DD1891 /* Products */,
 			);
@@ -157,7 +131,6 @@
 				633399601D7C1AFD00DD1891 /* iPortal.app */,
 				6333997C1D7C1AFD00DD1891 /* iPortal.xctest */,
 				633399871D7C1AFD00DD1891 /* iPortal.xctest */,
-				633399D61D820EA000DD1891 /* iPortal Today.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -235,17 +208,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		633399D81D820EA000DD1891 /* iPortal Today */ = {
-			isa = PBXGroup;
-			children = (
-				633399D91D820EA000DD1891 /* TodayViewController.h */,
-				633399DA1D820EA000DD1891 /* TodayViewController.m */,
-				633399DC1D820EA000DD1891 /* MainInterface.storyboard */,
-				633399DF1D820EA000DD1891 /* Info.plist */,
-			);
-			path = "iPortal Today";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -261,7 +223,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				633399E11D820EA000DD1891 /* PBXTargetDependency */,
 			);
 			name = iPortal;
 			productName = SlideOutSideBar;
@@ -304,23 +265,6 @@
 			productReference = 633399871D7C1AFD00DD1891 /* iPortal.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
-		633399D51D820EA000DD1891 /* iPortal Today */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 633399E31D820EA000DD1891 /* Build configuration list for PBXNativeTarget "iPortal Today" */;
-			buildPhases = (
-				633399D21D820EA000DD1891 /* Sources */,
-				633399D31D820EA000DD1891 /* Frameworks */,
-				633399D41D820EA000DD1891 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "iPortal Today";
-			productName = "iPortal Today";
-			productReference = 633399D61D820EA000DD1891 /* iPortal Today.appex */;
-			productType = "com.apple.product-type.app-extension";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -342,10 +286,6 @@
 						CreatedOnToolsVersion = 7.3.1;
 						TestTargetID = 6333995F1D7C1AFD00DD1891;
 					};
-					633399D51D820EA000DD1891 = {
-						CreatedOnToolsVersion = 7.3.1;
-						DevelopmentTeam = 83NE4H42TL;
-					};
 				};
 			};
 			buildConfigurationList = 6333995B1D7C1AFD00DD1891 /* Build configuration list for PBXProject "iPortal" */;
@@ -364,7 +304,6 @@
 				6333995F1D7C1AFD00DD1891 /* iPortal */,
 				6333997B1D7C1AFD00DD1891 /* iPortalTests */,
 				633399861D7C1AFD00DD1891 /* iPortalUITests */,
-				633399D51D820EA000DD1891 /* iPortal Today */,
 			);
 		};
 /* End PBXProject section */
@@ -392,14 +331,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		633399D41D820EA000DD1891 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				633399DE1D820EA000DD1891 /* MainInterface.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -439,14 +370,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		633399D21D820EA000DD1891 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				633399DB1D820EA000DD1891 /* TodayViewController.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -459,11 +382,6 @@
 			isa = PBXTargetDependency;
 			target = 6333995F1D7C1AFD00DD1891 /* iPortal */;
 			targetProxy = 633399881D7C1AFD00DD1891 /* PBXContainerItemProxy */;
-		};
-		633399E11D820EA000DD1891 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 633399D51D820EA000DD1891 /* iPortal Today */;
-			targetProxy = 633399E01D820EA000DD1891 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -482,14 +400,6 @@
 				633399751D7C1AFD00DD1891 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-		633399DC1D820EA000DD1891 /* MainInterface.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				633399DD1D820EA000DD1891 /* Base */,
-			);
-			name = MainInterface.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -655,32 +565,6 @@
 			};
 			name = Release;
 		};
-		633399E41D820EA000DD1891 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				INFOPLIST_FILE = "iPortal Today/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "HAZ.SlideOutSideBar.iPortal-Today";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		633399E51D820EA000DD1891 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				INFOPLIST_FILE = "iPortal Today/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "HAZ.SlideOutSideBar.iPortal-Today";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -716,15 +600,6 @@
 			buildConfigurations = (
 				633399971D7C1AFD00DD1891 /* Debug */,
 				633399981D7C1AFD00DD1891 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		633399E31D820EA000DD1891 /* Build configuration list for PBXNativeTarget "iPortal Today" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				633399E41D820EA000DD1891 /* Debug */,
-				633399E51D820EA000DD1891 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
