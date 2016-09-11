@@ -1,0 +1,746 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		633399651D7C1AFD00DD1891 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 633399641D7C1AFD00DD1891 /* main.m */; };
+		633399681D7C1AFD00DD1891 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 633399671D7C1AFD00DD1891 /* AppDelegate.m */; };
+		6333996E1D7C1AFD00DD1891 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6333996C1D7C1AFD00DD1891 /* Main.storyboard */; };
+		633399711D7C1AFD00DD1891 /* SlideOutSideBar.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6333996F1D7C1AFD00DD1891 /* SlideOutSideBar.xcdatamodeld */; };
+		633399731D7C1AFD00DD1891 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 633399721D7C1AFD00DD1891 /* Assets.xcassets */; };
+		633399761D7C1AFD00DD1891 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 633399741D7C1AFD00DD1891 /* LaunchScreen.storyboard */; };
+		633399811D7C1AFD00DD1891 /* SlideOutSideBarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 633399801D7C1AFD00DD1891 /* SlideOutSideBarTests.m */; };
+		6333998C1D7C1AFD00DD1891 /* SlideOutSideBarUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6333998B1D7C1AFD00DD1891 /* SlideOutSideBarUITests.m */; };
+		6333999C1D7C1C7500DD1891 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6333999B1D7C1C7500DD1891 /* SWRevealViewController.m */; };
+		633399AB1D7C26EC00DD1891 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 633399AA1D7C26EC00DD1891 /* TableViewController.m */; };
+		633399AD1D7C320D00DD1891 /* graph.png in Resources */ = {isa = PBXBuildFile; fileRef = 633399AC1D7C320D00DD1891 /* graph.png */; };
+		633399B01D7C5C3F00DD1891 /* HomePageTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 633399AF1D7C5C3F00DD1891 /* HomePageTableViewController.m */; };
+		633399B41D7C648B00DD1891 /* FiltersTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 633399B31D7C648B00DD1891 /* FiltersTableViewController.m */; };
+		633399B71D7E00F700DD1891 /* ManageDefaults.m in Sources */ = {isa = PBXBuildFile; fileRef = 633399B61D7E00F700DD1891 /* ManageDefaults.m */; };
+		633399BA1D7E0FDD00DD1891 /* displayTrx.m in Sources */ = {isa = PBXBuildFile; fileRef = 633399B91D7E0FDD00DD1891 /* displayTrx.m */; };
+		633399D71D820EA000DD1891 /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 633399C11D81EA8400DD1891 /* NotificationCenter.framework */; };
+		633399DB1D820EA000DD1891 /* TodayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 633399DA1D820EA000DD1891 /* TodayViewController.m */; };
+		633399DE1D820EA000DD1891 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 633399DC1D820EA000DD1891 /* MainInterface.storyboard */; };
+		633399E21D820EA000DD1891 /* iPortal Today.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 633399D61D820EA000DD1891 /* iPortal Today.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		633399E81D84191400DD1891 /* getStats.m in Sources */ = {isa = PBXBuildFile; fileRef = 633399E71D84191400DD1891 /* getStats.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6333997D1D7C1AFD00DD1891 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 633399581D7C1AFD00DD1891 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6333995F1D7C1AFD00DD1891;
+			remoteInfo = SlideOutSideBar;
+		};
+		633399881D7C1AFD00DD1891 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 633399581D7C1AFD00DD1891 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6333995F1D7C1AFD00DD1891;
+			remoteInfo = SlideOutSideBar;
+		};
+		633399E01D820EA000DD1891 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 633399581D7C1AFD00DD1891 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 633399D51D820EA000DD1891;
+			remoteInfo = "iPortal Today";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		633399D11D81EA8400DD1891 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				633399E21D820EA000DD1891 /* iPortal Today.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		633399601D7C1AFD00DD1891 /* SlideOutSideBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SlideOutSideBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		633399641D7C1AFD00DD1891 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		633399661D7C1AFD00DD1891 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		633399671D7C1AFD00DD1891 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6333996D1D7C1AFD00DD1891 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		633399701D7C1AFD00DD1891 /* SlideOutSideBar.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SlideOutSideBar.xcdatamodel; sourceTree = "<group>"; };
+		633399721D7C1AFD00DD1891 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		633399751D7C1AFD00DD1891 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		633399771D7C1AFD00DD1891 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6333997C1D7C1AFD00DD1891 /* SlideOutSideBarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SlideOutSideBarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		633399801D7C1AFD00DD1891 /* SlideOutSideBarTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SlideOutSideBarTests.m; sourceTree = "<group>"; };
+		633399821D7C1AFD00DD1891 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		633399871D7C1AFD00DD1891 /* SlideOutSideBarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SlideOutSideBarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6333998B1D7C1AFD00DD1891 /* SlideOutSideBarUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SlideOutSideBarUITests.m; sourceTree = "<group>"; };
+		6333998D1D7C1AFD00DD1891 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6333999A1D7C1C7500DD1891 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		6333999B1D7C1C7500DD1891 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		633399A91D7C26EC00DD1891 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		633399AA1D7C26EC00DD1891 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		633399AC1D7C320D00DD1891 /* graph.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = graph.png; sourceTree = "<group>"; };
+		633399AE1D7C5C3F00DD1891 /* HomePageTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomePageTableViewController.h; sourceTree = "<group>"; };
+		633399AF1D7C5C3F00DD1891 /* HomePageTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomePageTableViewController.m; sourceTree = "<group>"; };
+		633399B21D7C648B00DD1891 /* FiltersTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FiltersTableViewController.h; sourceTree = "<group>"; };
+		633399B31D7C648B00DD1891 /* FiltersTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FiltersTableViewController.m; sourceTree = "<group>"; };
+		633399B51D7E00F700DD1891 /* ManageDefaults.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ManageDefaults.h; sourceTree = "<group>"; };
+		633399B61D7E00F700DD1891 /* ManageDefaults.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ManageDefaults.m; sourceTree = "<group>"; };
+		633399B81D7E0FDD00DD1891 /* displayTrx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = displayTrx.h; sourceTree = "<group>"; };
+		633399B91D7E0FDD00DD1891 /* displayTrx.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = displayTrx.m; sourceTree = "<group>"; };
+		633399C11D81EA8400DD1891 /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
+		633399D61D820EA000DD1891 /* iPortal Today.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "iPortal Today.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		633399D91D820EA000DD1891 /* TodayViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TodayViewController.h; sourceTree = "<group>"; };
+		633399DA1D820EA000DD1891 /* TodayViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TodayViewController.m; sourceTree = "<group>"; };
+		633399DD1D820EA000DD1891 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		633399DF1D820EA000DD1891 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		633399E61D84191400DD1891 /* getStats.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = getStats.h; sourceTree = "<group>"; };
+		633399E71D84191400DD1891 /* getStats.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = getStats.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6333995D1D7C1AFD00DD1891 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		633399791D7C1AFD00DD1891 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		633399841D7C1AFD00DD1891 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		633399D31D820EA000DD1891 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				633399D71D820EA000DD1891 /* NotificationCenter.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		633399571D7C1AFD00DD1891 = {
+			isa = PBXGroup;
+			children = (
+				633399621D7C1AFD00DD1891 /* SlideOutSideBar */,
+				6333997F1D7C1AFD00DD1891 /* SlideOutSideBarTests */,
+				6333998A1D7C1AFD00DD1891 /* SlideOutSideBarUITests */,
+				633399D81D820EA000DD1891 /* iPortal Today */,
+				633399C01D81EA8400DD1891 /* Frameworks */,
+				633399611D7C1AFD00DD1891 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		633399611D7C1AFD00DD1891 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				633399601D7C1AFD00DD1891 /* SlideOutSideBar.app */,
+				6333997C1D7C1AFD00DD1891 /* SlideOutSideBarTests.xctest */,
+				633399871D7C1AFD00DD1891 /* SlideOutSideBarUITests.xctest */,
+				633399D61D820EA000DD1891 /* iPortal Today.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		633399621D7C1AFD00DD1891 /* SlideOutSideBar */ = {
+			isa = PBXGroup;
+			children = (
+				633399991D7C1C4900DD1891 /* SWRevealViewController */,
+				633399661D7C1AFD00DD1891 /* AppDelegate.h */,
+				633399671D7C1AFD00DD1891 /* AppDelegate.m */,
+				6333996C1D7C1AFD00DD1891 /* Main.storyboard */,
+				633399B51D7E00F700DD1891 /* ManageDefaults.h */,
+				633399B61D7E00F700DD1891 /* ManageDefaults.m */,
+				633399B21D7C648B00DD1891 /* FiltersTableViewController.h */,
+				633399B31D7C648B00DD1891 /* FiltersTableViewController.m */,
+				633399AE1D7C5C3F00DD1891 /* HomePageTableViewController.h */,
+				633399AF1D7C5C3F00DD1891 /* HomePageTableViewController.m */,
+				633399A91D7C26EC00DD1891 /* TableViewController.h */,
+				633399AA1D7C26EC00DD1891 /* TableViewController.m */,
+				633399B81D7E0FDD00DD1891 /* displayTrx.h */,
+				633399B91D7E0FDD00DD1891 /* displayTrx.m */,
+				633399E61D84191400DD1891 /* getStats.h */,
+				633399E71D84191400DD1891 /* getStats.m */,
+				633399AC1D7C320D00DD1891 /* graph.png */,
+				633399721D7C1AFD00DD1891 /* Assets.xcassets */,
+				633399741D7C1AFD00DD1891 /* LaunchScreen.storyboard */,
+				633399771D7C1AFD00DD1891 /* Info.plist */,
+				6333996F1D7C1AFD00DD1891 /* SlideOutSideBar.xcdatamodeld */,
+				633399631D7C1AFD00DD1891 /* Supporting Files */,
+			);
+			path = SlideOutSideBar;
+			sourceTree = "<group>";
+		};
+		633399631D7C1AFD00DD1891 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				633399641D7C1AFD00DD1891 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6333997F1D7C1AFD00DD1891 /* SlideOutSideBarTests */ = {
+			isa = PBXGroup;
+			children = (
+				633399801D7C1AFD00DD1891 /* SlideOutSideBarTests.m */,
+				633399821D7C1AFD00DD1891 /* Info.plist */,
+			);
+			path = SlideOutSideBarTests;
+			sourceTree = "<group>";
+		};
+		6333998A1D7C1AFD00DD1891 /* SlideOutSideBarUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6333998B1D7C1AFD00DD1891 /* SlideOutSideBarUITests.m */,
+				6333998D1D7C1AFD00DD1891 /* Info.plist */,
+			);
+			path = SlideOutSideBarUITests;
+			sourceTree = "<group>";
+		};
+		633399991D7C1C4900DD1891 /* SWRevealViewController */ = {
+			isa = PBXGroup;
+			children = (
+				6333999A1D7C1C7500DD1891 /* SWRevealViewController.h */,
+				6333999B1D7C1C7500DD1891 /* SWRevealViewController.m */,
+			);
+			name = SWRevealViewController;
+			sourceTree = "<group>";
+		};
+		633399C01D81EA8400DD1891 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				633399C11D81EA8400DD1891 /* NotificationCenter.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		633399D81D820EA000DD1891 /* iPortal Today */ = {
+			isa = PBXGroup;
+			children = (
+				633399D91D820EA000DD1891 /* TodayViewController.h */,
+				633399DA1D820EA000DD1891 /* TodayViewController.m */,
+				633399DC1D820EA000DD1891 /* MainInterface.storyboard */,
+				633399DF1D820EA000DD1891 /* Info.plist */,
+			);
+			path = "iPortal Today";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6333995F1D7C1AFD00DD1891 /* SlideOutSideBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 633399901D7C1AFD00DD1891 /* Build configuration list for PBXNativeTarget "SlideOutSideBar" */;
+			buildPhases = (
+				6333995C1D7C1AFD00DD1891 /* Sources */,
+				6333995D1D7C1AFD00DD1891 /* Frameworks */,
+				6333995E1D7C1AFD00DD1891 /* Resources */,
+				633399D11D81EA8400DD1891 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				633399E11D820EA000DD1891 /* PBXTargetDependency */,
+			);
+			name = SlideOutSideBar;
+			productName = SlideOutSideBar;
+			productReference = 633399601D7C1AFD00DD1891 /* SlideOutSideBar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6333997B1D7C1AFD00DD1891 /* SlideOutSideBarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 633399931D7C1AFD00DD1891 /* Build configuration list for PBXNativeTarget "SlideOutSideBarTests" */;
+			buildPhases = (
+				633399781D7C1AFD00DD1891 /* Sources */,
+				633399791D7C1AFD00DD1891 /* Frameworks */,
+				6333997A1D7C1AFD00DD1891 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6333997E1D7C1AFD00DD1891 /* PBXTargetDependency */,
+			);
+			name = SlideOutSideBarTests;
+			productName = SlideOutSideBarTests;
+			productReference = 6333997C1D7C1AFD00DD1891 /* SlideOutSideBarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		633399861D7C1AFD00DD1891 /* SlideOutSideBarUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 633399961D7C1AFD00DD1891 /* Build configuration list for PBXNativeTarget "SlideOutSideBarUITests" */;
+			buildPhases = (
+				633399831D7C1AFD00DD1891 /* Sources */,
+				633399841D7C1AFD00DD1891 /* Frameworks */,
+				633399851D7C1AFD00DD1891 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				633399891D7C1AFD00DD1891 /* PBXTargetDependency */,
+			);
+			name = SlideOutSideBarUITests;
+			productName = SlideOutSideBarUITests;
+			productReference = 633399871D7C1AFD00DD1891 /* SlideOutSideBarUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		633399D51D820EA000DD1891 /* iPortal Today */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 633399E31D820EA000DD1891 /* Build configuration list for PBXNativeTarget "iPortal Today" */;
+			buildPhases = (
+				633399D21D820EA000DD1891 /* Sources */,
+				633399D31D820EA000DD1891 /* Frameworks */,
+				633399D41D820EA000DD1891 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iPortal Today";
+			productName = "iPortal Today";
+			productReference = 633399D61D820EA000DD1891 /* iPortal Today.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		633399581D7C1AFD00DD1891 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Hervé AZOULAY";
+				TargetAttributes = {
+					6333995F1D7C1AFD00DD1891 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 83NE4H42TL;
+					};
+					6333997B1D7C1AFD00DD1891 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 6333995F1D7C1AFD00DD1891;
+					};
+					633399861D7C1AFD00DD1891 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 6333995F1D7C1AFD00DD1891;
+					};
+					633399D51D820EA000DD1891 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 83NE4H42TL;
+					};
+				};
+			};
+			buildConfigurationList = 6333995B1D7C1AFD00DD1891 /* Build configuration list for PBXProject "SlideOutSideBar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 633399571D7C1AFD00DD1891;
+			productRefGroup = 633399611D7C1AFD00DD1891 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6333995F1D7C1AFD00DD1891 /* SlideOutSideBar */,
+				6333997B1D7C1AFD00DD1891 /* SlideOutSideBarTests */,
+				633399861D7C1AFD00DD1891 /* SlideOutSideBarUITests */,
+				633399D51D820EA000DD1891 /* iPortal Today */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6333995E1D7C1AFD00DD1891 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				633399761D7C1AFD00DD1891 /* LaunchScreen.storyboard in Resources */,
+				633399731D7C1AFD00DD1891 /* Assets.xcassets in Resources */,
+				633399AD1D7C320D00DD1891 /* graph.png in Resources */,
+				6333996E1D7C1AFD00DD1891 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6333997A1D7C1AFD00DD1891 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		633399851D7C1AFD00DD1891 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		633399D41D820EA000DD1891 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				633399DE1D820EA000DD1891 /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6333995C1D7C1AFD00DD1891 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				633399681D7C1AFD00DD1891 /* AppDelegate.m in Sources */,
+				6333999C1D7C1C7500DD1891 /* SWRevealViewController.m in Sources */,
+				633399E81D84191400DD1891 /* getStats.m in Sources */,
+				633399651D7C1AFD00DD1891 /* main.m in Sources */,
+				633399711D7C1AFD00DD1891 /* SlideOutSideBar.xcdatamodeld in Sources */,
+				633399B71D7E00F700DD1891 /* ManageDefaults.m in Sources */,
+				633399BA1D7E0FDD00DD1891 /* displayTrx.m in Sources */,
+				633399B01D7C5C3F00DD1891 /* HomePageTableViewController.m in Sources */,
+				633399AB1D7C26EC00DD1891 /* TableViewController.m in Sources */,
+				633399B41D7C648B00DD1891 /* FiltersTableViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		633399781D7C1AFD00DD1891 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				633399811D7C1AFD00DD1891 /* SlideOutSideBarTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		633399831D7C1AFD00DD1891 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6333998C1D7C1AFD00DD1891 /* SlideOutSideBarUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		633399D21D820EA000DD1891 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				633399DB1D820EA000DD1891 /* TodayViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6333997E1D7C1AFD00DD1891 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6333995F1D7C1AFD00DD1891 /* SlideOutSideBar */;
+			targetProxy = 6333997D1D7C1AFD00DD1891 /* PBXContainerItemProxy */;
+		};
+		633399891D7C1AFD00DD1891 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6333995F1D7C1AFD00DD1891 /* SlideOutSideBar */;
+			targetProxy = 633399881D7C1AFD00DD1891 /* PBXContainerItemProxy */;
+		};
+		633399E11D820EA000DD1891 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 633399D51D820EA000DD1891 /* iPortal Today */;
+			targetProxy = 633399E01D820EA000DD1891 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6333996C1D7C1AFD00DD1891 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6333996D1D7C1AFD00DD1891 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		633399741D7C1AFD00DD1891 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				633399751D7C1AFD00DD1891 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		633399DC1D820EA000DD1891 /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				633399DD1D820EA000DD1891 /* Base */,
+			);
+			name = MainInterface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6333998E1D7C1AFD00DD1891 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6333998F1D7C1AFD00DD1891 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		633399911D7C1AFD00DD1891 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = SlideOutSideBar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HAZ.SlideOutSideBar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		633399921D7C1AFD00DD1891 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = SlideOutSideBar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HAZ.SlideOutSideBar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		633399941D7C1AFD00DD1891 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SlideOutSideBarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HAZ.SlideOutSideBarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SlideOutSideBar.app/SlideOutSideBar";
+			};
+			name = Debug;
+		};
+		633399951D7C1AFD00DD1891 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SlideOutSideBarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HAZ.SlideOutSideBarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SlideOutSideBar.app/SlideOutSideBar";
+			};
+			name = Release;
+		};
+		633399971D7C1AFD00DD1891 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SlideOutSideBarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HAZ.SlideOutSideBarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SlideOutSideBar;
+			};
+			name = Debug;
+		};
+		633399981D7C1AFD00DD1891 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SlideOutSideBarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HAZ.SlideOutSideBarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SlideOutSideBar;
+			};
+			name = Release;
+		};
+		633399E41D820EA000DD1891 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "iPortal Today/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "HAZ.SlideOutSideBar.iPortal-Today";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		633399E51D820EA000DD1891 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "iPortal Today/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "HAZ.SlideOutSideBar.iPortal-Today";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6333995B1D7C1AFD00DD1891 /* Build configuration list for PBXProject "SlideOutSideBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6333998E1D7C1AFD00DD1891 /* Debug */,
+				6333998F1D7C1AFD00DD1891 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		633399901D7C1AFD00DD1891 /* Build configuration list for PBXNativeTarget "SlideOutSideBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				633399911D7C1AFD00DD1891 /* Debug */,
+				633399921D7C1AFD00DD1891 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		633399931D7C1AFD00DD1891 /* Build configuration list for PBXNativeTarget "SlideOutSideBarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				633399941D7C1AFD00DD1891 /* Debug */,
+				633399951D7C1AFD00DD1891 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		633399961D7C1AFD00DD1891 /* Build configuration list for PBXNativeTarget "SlideOutSideBarUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				633399971D7C1AFD00DD1891 /* Debug */,
+				633399981D7C1AFD00DD1891 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		633399E31D820EA000DD1891 /* Build configuration list for PBXNativeTarget "iPortal Today" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				633399E41D820EA000DD1891 /* Debug */,
+				633399E51D820EA000DD1891 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		6333996F1D7C1AFD00DD1891 /* SlideOutSideBar.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				633399701D7C1AFD00DD1891 /* SlideOutSideBar.xcdatamodel */,
+			);
+			currentVersion = 633399701D7C1AFD00DD1891 /* SlideOutSideBar.xcdatamodel */;
+			path = SlideOutSideBar.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 633399581D7C1AFD00DD1891 /* Project object */;
+}
