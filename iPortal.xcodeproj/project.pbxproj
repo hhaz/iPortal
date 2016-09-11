@@ -142,7 +142,7 @@
 		633399571D7C1AFD00DD1891 = {
 			isa = PBXGroup;
 			children = (
-				633399621D7C1AFD00DD1891 /* SlideOutSideBar */,
+				633399621D7C1AFD00DD1891 /* iPortal */,
 				6333997F1D7C1AFD00DD1891 /* SlideOutSideBarTests */,
 				6333998A1D7C1AFD00DD1891 /* SlideOutSideBarUITests */,
 				633399D81D820EA000DD1891 /* iPortal Today */,
@@ -162,7 +162,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		633399621D7C1AFD00DD1891 /* SlideOutSideBar */ = {
+		633399621D7C1AFD00DD1891 /* iPortal */ = {
 			isa = PBXGroup;
 			children = (
 				633399991D7C1C4900DD1891 /* SWRevealViewController */,
@@ -188,6 +188,7 @@
 				6333996F1D7C1AFD00DD1891 /* SlideOutSideBar.xcdatamodeld */,
 				633399631D7C1AFD00DD1891 /* Supporting Files */,
 			);
+			name = iPortal;
 			path = SlideOutSideBar;
 			sourceTree = "<group>";
 		};
