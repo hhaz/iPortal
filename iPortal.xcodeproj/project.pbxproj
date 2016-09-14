@@ -7,8 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		46A8E8C81D8876B800556186 /* Charts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46A8E8C11D8876AA00556186 /* Charts.framework */; };
-		46A8E8C91D8876B800556186 /* Charts.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 46A8E8C11D8876AA00556186 /* Charts.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		46A8E8CE1D88824400556186 /* getTrx.m in Sources */ = {isa = PBXBuildFile; fileRef = 46A8E8CD1D88824400556186 /* getTrx.m */; };
 		633399651D7C1AFD00DD1891 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 633399641D7C1AFD00DD1891 /* main.m */; };
 		633399681D7C1AFD00DD1891 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 633399671D7C1AFD00DD1891 /* AppDelegate.m */; };
 		6333996E1D7C1AFD00DD1891 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6333996C1D7C1AFD00DD1891 /* Main.storyboard */; };
@@ -28,41 +27,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		46A8E8C01D8876AA00556186 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 46A8E8B91D8876AA00556186 /* Charts.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 5BA8EC401A9D14DC00CE82E1;
-			remoteInfo = "Charts-iOS";
-		};
-		46A8E8C21D8876AA00556186 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 46A8E8B91D8876AA00556186 /* Charts.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = A52C5C371BAC5CA400594CDD;
-			remoteInfo = "Charts-TV";
-		};
-		46A8E8C41D8876AA00556186 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 46A8E8B91D8876AA00556186 /* Charts.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 65B3F5BF1C7370BE000983D0;
-			remoteInfo = "Charts-OSX";
-		};
-		46A8E8C61D8876AA00556186 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 46A8E8B91D8876AA00556186 /* Charts.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 06AEE7A21BDC3F8B009875AE;
-			remoteInfo = ChartsTests;
-		};
-		46A8E8CA1D8876B800556186 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 46A8E8B91D8876AA00556186 /* Charts.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 5BA8EC3F1A9D14DC00CE82E1;
-			remoteInfo = "Charts-iOS";
-		};
 		6333997D1D7C1AFD00DD1891 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 633399581D7C1AFD00DD1891 /* Project object */;
@@ -86,7 +50,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				46A8E8C91D8876B800556186 /* Charts.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -104,7 +67,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		46A8E8B91D8876AA00556186 /* Charts.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Charts.xcodeproj; path = "../../../../Downloads/Charts-master/Charts/Charts.xcodeproj"; sourceTree = "<group>"; };
+		46A8E8CD1D88824400556186 /* getTrx.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = getTrx.m; sourceTree = "<group>"; };
+		46A8E8CF1D88824A00556186 /* getTrx.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = getTrx.h; sourceTree = "<group>"; };
 		633399601D7C1AFD00DD1891 /* iPortal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iPortal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		633399641D7C1AFD00DD1891 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		633399661D7C1AFD00DD1891 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -143,7 +107,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				46A8E8C81D8876B800556186 /* Charts.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -164,17 +127,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		46A8E8BA1D8876AA00556186 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				46A8E8C11D8876AA00556186 /* Charts.framework */,
-				46A8E8C31D8876AA00556186 /* Charts.framework */,
-				46A8E8C51D8876AA00556186 /* Charts.framework */,
-				46A8E8C71D8876AA00556186 /* ChartsTests.xctest */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		633399571D7C1AFD00DD1891 = {
 			isa = PBXGroup;
 			children = (
@@ -199,7 +151,6 @@
 		633399621D7C1AFD00DD1891 /* iPortal */ = {
 			isa = PBXGroup;
 			children = (
-				46A8E8B91D8876AA00556186 /* Charts.xcodeproj */,
 				633399991D7C1C4900DD1891 /* SWRevealViewController */,
 				633399661D7C1AFD00DD1891 /* AppDelegate.h */,
 				633399671D7C1AFD00DD1891 /* AppDelegate.m */,
@@ -216,6 +167,8 @@
 				633399B91D7E0FDD00DD1891 /* displayTrx.m */,
 				633399E61D84191400DD1891 /* getStats.h */,
 				633399E71D84191400DD1891 /* getStats.m */,
+				46A8E8CF1D88824A00556186 /* getTrx.h */,
+				46A8E8CD1D88824400556186 /* getTrx.m */,
 				633399AC1D7C320D00DD1891 /* graph.png */,
 				633399721D7C1AFD00DD1891 /* Assets.xcassets */,
 				633399741D7C1AFD00DD1891 /* LaunchScreen.storyboard */,
@@ -286,7 +239,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				46A8E8CB1D8876B800556186 /* PBXTargetDependency */,
 			);
 			name = iPortal;
 			productName = SlideOutSideBar;
@@ -363,12 +315,6 @@
 			mainGroup = 633399571D7C1AFD00DD1891;
 			productRefGroup = 633399611D7C1AFD00DD1891 /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = 46A8E8BA1D8876AA00556186 /* Products */;
-					ProjectRef = 46A8E8B91D8876AA00556186 /* Charts.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				6333995F1D7C1AFD00DD1891 /* iPortal */,
@@ -377,37 +323,6 @@
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXReferenceProxy section */
-		46A8E8C11D8876AA00556186 /* Charts.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = Charts.framework;
-			remoteRef = 46A8E8C01D8876AA00556186 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		46A8E8C31D8876AA00556186 /* Charts.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = Charts.framework;
-			remoteRef = 46A8E8C21D8876AA00556186 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		46A8E8C51D8876AA00556186 /* Charts.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = Charts.framework;
-			remoteRef = 46A8E8C41D8876AA00556186 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		46A8E8C71D8876AA00556186 /* ChartsTests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = ChartsTests.xctest;
-			remoteRef = 46A8E8C61D8876AA00556186 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		6333995E1D7C1AFD00DD1891 /* Resources */ = {
@@ -451,6 +366,7 @@
 				633399BA1D7E0FDD00DD1891 /* displayTrx.m in Sources */,
 				633399B01D7C5C3F00DD1891 /* HomePageTableViewController.m in Sources */,
 				633399AB1D7C26EC00DD1891 /* TableViewController.m in Sources */,
+				46A8E8CE1D88824400556186 /* getTrx.m in Sources */,
 				633399B41D7C648B00DD1891 /* FiltersTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -474,11 +390,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		46A8E8CB1D8876B800556186 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Charts-iOS";
-			targetProxy = 46A8E8CA1D8876B800556186 /* PBXContainerItemProxy */;
-		};
 		6333997E1D7C1AFD00DD1891 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 6333995F1D7C1AFD00DD1891 /* iPortal */;
@@ -601,8 +512,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 83NE4H42TL;
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = SlideOutSideBar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = HAZ.iPortal;
 				PRODUCT_NAME = iPortal;
@@ -617,8 +530,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 83NE4H42TL;
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = SlideOutSideBar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = HAZ.iPortal;
 				PRODUCT_NAME = iPortal;
