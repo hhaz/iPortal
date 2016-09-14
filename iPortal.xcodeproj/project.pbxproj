@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		462A613A1D8A016600AC1128 /* GraphsAndKPIControllerTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 462A61391D8A016600AC1128 /* GraphsAndKPIControllerTableViewController.m */; };
+		46636E831D89FAD700135FA2 /* Charts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46636E7C1D89FA5400135FA2 /* Charts.framework */; };
+		46636E841D89FAD700135FA2 /* Charts.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 46636E7C1D89FA5400135FA2 /* Charts.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		46A8E8CE1D88824400556186 /* getTrx.m in Sources */ = {isa = PBXBuildFile; fileRef = 46A8E8CD1D88824400556186 /* getTrx.m */; };
 		633399651D7C1AFD00DD1891 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 633399641D7C1AFD00DD1891 /* main.m */; };
 		633399681D7C1AFD00DD1891 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 633399671D7C1AFD00DD1891 /* AppDelegate.m */; };
@@ -27,6 +30,41 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		46636E7B1D89FA5400135FA2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 46636E741D89FA5400135FA2 /* Charts.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 5BA8EC401A9D14DC00CE82E1;
+			remoteInfo = "Charts-iOS";
+		};
+		46636E7D1D89FA5400135FA2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 46636E741D89FA5400135FA2 /* Charts.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A52C5C371BAC5CA400594CDD;
+			remoteInfo = "Charts-TV";
+		};
+		46636E7F1D89FA5400135FA2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 46636E741D89FA5400135FA2 /* Charts.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 65B3F5BF1C7370BE000983D0;
+			remoteInfo = "Charts-OSX";
+		};
+		46636E811D89FA5400135FA2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 46636E741D89FA5400135FA2 /* Charts.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 06AEE7A21BDC3F8B009875AE;
+			remoteInfo = ChartsTests;
+		};
+		46636E851D89FAD700135FA2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 46636E741D89FA5400135FA2 /* Charts.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 5BA8EC3F1A9D14DC00CE82E1;
+			remoteInfo = "Charts-iOS";
+		};
 		6333997D1D7C1AFD00DD1891 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 633399581D7C1AFD00DD1891 /* Project object */;
@@ -50,6 +88,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				46636E841D89FAD700135FA2 /* Charts.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -67,6 +106,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		462A61381D8A016600AC1128 /* GraphsAndKPIControllerTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GraphsAndKPIControllerTableViewController.h; sourceTree = "<group>"; };
+		462A61391D8A016600AC1128 /* GraphsAndKPIControllerTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GraphsAndKPIControllerTableViewController.m; sourceTree = "<group>"; };
+		46636E741D89FA5400135FA2 /* Charts.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Charts.xcodeproj; path = Charts/Charts.xcodeproj; sourceTree = SOURCE_ROOT; };
 		46A8E8CD1D88824400556186 /* getTrx.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = getTrx.m; sourceTree = "<group>"; };
 		46A8E8CF1D88824A00556186 /* getTrx.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = getTrx.h; sourceTree = "<group>"; };
 		633399601D7C1AFD00DD1891 /* iPortal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iPortal.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -107,6 +149,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				46636E831D89FAD700135FA2 /* Charts.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -127,6 +170,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		46636E751D89FA5400135FA2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				46636E7C1D89FA5400135FA2 /* Charts.framework */,
+				46636E7E1D89FA5400135FA2 /* Charts.framework */,
+				46636E801D89FA5400135FA2 /* Charts.framework */,
+				46636E821D89FA5400135FA2 /* ChartsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		633399571D7C1AFD00DD1891 = {
 			isa = PBXGroup;
 			children = (
@@ -151,6 +205,7 @@
 		633399621D7C1AFD00DD1891 /* iPortal */ = {
 			isa = PBXGroup;
 			children = (
+				46636E741D89FA5400135FA2 /* Charts.xcodeproj */,
 				633399991D7C1C4900DD1891 /* SWRevealViewController */,
 				633399661D7C1AFD00DD1891 /* AppDelegate.h */,
 				633399671D7C1AFD00DD1891 /* AppDelegate.m */,
@@ -161,6 +216,8 @@
 				633399B31D7C648B00DD1891 /* FiltersTableViewController.m */,
 				633399AE1D7C5C3F00DD1891 /* HomePageTableViewController.h */,
 				633399AF1D7C5C3F00DD1891 /* HomePageTableViewController.m */,
+				462A61381D8A016600AC1128 /* GraphsAndKPIControllerTableViewController.h */,
+				462A61391D8A016600AC1128 /* GraphsAndKPIControllerTableViewController.m */,
 				633399A91D7C26EC00DD1891 /* TableViewController.h */,
 				633399AA1D7C26EC00DD1891 /* TableViewController.m */,
 				633399B81D7E0FDD00DD1891 /* displayTrx.h */,
@@ -239,6 +296,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				46636E861D89FAD700135FA2 /* PBXTargetDependency */,
 			);
 			name = iPortal;
 			productName = SlideOutSideBar;
@@ -287,12 +345,13 @@
 		633399581D7C1AFD00DD1891 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0730;
+				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = "Hervé AZOULAY";
 				TargetAttributes = {
 					6333995F1D7C1AFD00DD1891 = {
 						CreatedOnToolsVersion = 7.3.1;
 						DevelopmentTeam = 83NE4H42TL;
+						LastSwiftMigration = 0800;
 					};
 					6333997B1D7C1AFD00DD1891 = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -315,6 +374,12 @@
 			mainGroup = 633399571D7C1AFD00DD1891;
 			productRefGroup = 633399611D7C1AFD00DD1891 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 46636E751D89FA5400135FA2 /* Products */;
+					ProjectRef = 46636E741D89FA5400135FA2 /* Charts.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				6333995F1D7C1AFD00DD1891 /* iPortal */,
@@ -323,6 +388,37 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		46636E7C1D89FA5400135FA2 /* Charts.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Charts.framework;
+			remoteRef = 46636E7B1D89FA5400135FA2 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		46636E7E1D89FA5400135FA2 /* Charts.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Charts.framework;
+			remoteRef = 46636E7D1D89FA5400135FA2 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		46636E801D89FA5400135FA2 /* Charts.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Charts.framework;
+			remoteRef = 46636E7F1D89FA5400135FA2 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		46636E821D89FA5400135FA2 /* ChartsTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = ChartsTests.xctest;
+			remoteRef = 46636E811D89FA5400135FA2 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		6333995E1D7C1AFD00DD1891 /* Resources */ = {
@@ -362,6 +458,7 @@
 				633399E81D84191400DD1891 /* getStats.m in Sources */,
 				633399651D7C1AFD00DD1891 /* main.m in Sources */,
 				633399711D7C1AFD00DD1891 /* SlideOutSideBar.xcdatamodeld in Sources */,
+				462A613A1D8A016600AC1128 /* GraphsAndKPIControllerTableViewController.m in Sources */,
 				633399B71D7E00F700DD1891 /* ManageDefaults.m in Sources */,
 				633399BA1D7E0FDD00DD1891 /* displayTrx.m in Sources */,
 				633399B01D7C5C3F00DD1891 /* HomePageTableViewController.m in Sources */,
@@ -390,6 +487,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		46636E861D89FAD700135FA2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Charts-iOS";
+			targetProxy = 46636E851D89FAD700135FA2 /* PBXContainerItemProxy */;
+		};
 		6333997E1D7C1AFD00DD1891 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 6333995F1D7C1AFD00DD1891 /* iPortal */;
@@ -436,8 +538,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -481,8 +585,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -509,17 +615,18 @@
 		633399911D7C1AFD00DD1891 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = 83NE4H42TL;
-				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = SlideOutSideBar/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = HAZ.iPortal;
 				PRODUCT_NAME = iPortal;
 				PROVISIONING_PROFILE = "";
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -527,17 +634,18 @@
 		633399921D7C1AFD00DD1891 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = 83NE4H42TL;
-				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = SlideOutSideBar/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = HAZ.iPortal;
 				PRODUCT_NAME = iPortal;
 				PROVISIONING_PROFILE = "";
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;

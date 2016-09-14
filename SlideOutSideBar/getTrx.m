@@ -181,7 +181,9 @@
     for (int i = 0; i < count; i+=2)
     {
         currentNumber = [((NSNumber*)[dataArray objectAtIndex:i+1]) intValue];
-        [yVals1 addObject:[[BarChartDataEntry alloc] initWithValue:currentNumber xIndex:j]];
+        
+        
+        [yVals1 addObject:[[BarChartDataEntry alloc] initWithX:j y:currentNumber]];
         j++;
     }
     
@@ -192,7 +194,7 @@
         [xVals addObject:dataArray[i]];
     }
     
-    PieChartDataSet *dataSet = [[PieChartDataSet alloc] initWithYVals:yVals1 label:@"Trx Per App"];
+    PieChartDataSet *dataSet = [[PieChartDataSet alloc] initWithValues:yVals1 label:@"Trx Per App"];
     dataSet.sliceSpace = 1.0;
     
     // add a lot of colors
@@ -207,14 +209,14 @@
     
     dataSet.colors = colors;
     
-    PieChartData *data = [[PieChartData alloc] initWithXVals:xVals dataSet:dataSet];
+    PieChartData *data = [[PieChartData alloc] initWithDataSet:dataSet];
     
     NSNumberFormatter *pFormatter = [[NSNumberFormatter alloc] init];
     pFormatter.numberStyle = NSNumberFormatterPercentStyle;
     pFormatter.maximumFractionDigits = 1;
     pFormatter.multiplier = @1.f;
     pFormatter.percentSymbol = @" %";
-    [data setValueFormatter:pFormatter];
+    [data setValueFormatter:[[ChartDefaultValueFormatter alloc] initWithFormatter:pFormatter]];
     [data setValueFont:[UIFont fontWithName:@"HelveticaNeue-Bold" size:10.f]];
     [data setValueTextColor:UIColor.blackColor];
     
