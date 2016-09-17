@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		06AEE7A71BDC3F8B009875AE /* Charts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BA8EC401A9D14DC00CE82E1 /* Charts.framework */; };
 		06AEE7AE1BDC3FC6009875AE /* LineChartTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06AEE7AD1BDC3FC6009875AE /* LineChartTests.swift */; };
-		06AEE7C21BDC4277009875AE /* FBSnapshotTestCase.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 06AEE7C11BDC4277009875AE /* FBSnapshotTestCase.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		5597263B1BDABBDB00E05E59 /* Charts.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B680D3C1A9D1AD90026A057 /* Charts.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5597263C1BDABC0500E05E59 /* DefaultAxisValueFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B6654D51BB0A86F00890030 /* DefaultAxisValueFormatter.swift */; };
 		5597263D1BDABC0500E05E59 /* IFillFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B6654D61BB0A86F00890030 /* IFillFormatter.swift */; };
@@ -162,9 +161,6 @@
 		5BCAA7541C7CB03900F83F3B /* AnimatedMoveViewJob.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BCAA7521C7CB03900F83F3B /* AnimatedMoveViewJob.swift */; };
 		5BCAA7561C7CB0DE00F83F3B /* AnimatedZoomViewJob.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BCAA7551C7CB0DE00F83F3B /* AnimatedZoomViewJob.swift */; };
 		5BCAA7571C7CB0DE00F83F3B /* AnimatedZoomViewJob.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BCAA7551C7CB0DE00F83F3B /* AnimatedZoomViewJob.swift */; };
-		5BCB60CB1CFB936500E9945E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BCB60CA1CFB936500E9945E /* QuartzCore.framework */; };
-		5BCB60CD1CFB936900E9945E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BCB60CC1CFB936900E9945E /* UIKit.framework */; };
-		5BCB60D11CFB937D00E9945E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BCB60D01CFB937D00E9945E /* QuartzCore.framework */; };
 		5BD4C57C1BCDBF6C00462351 /* BarChartDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BD4C5751BCDBF6C00462351 /* BarChartDataProvider.swift */; };
 		5BD4C57D1BCDBF6C00462351 /* BarLineScatterCandleBubbleChartDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BD4C5761BCDBF6C00462351 /* BarLineScatterCandleBubbleChartDataProvider.swift */; };
 		5BD4C57E1BCDBF6C00462351 /* BubbleChartDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BD4C5771BCDBF6C00462351 /* BubbleChartDataProvider.swift */; };
@@ -340,7 +336,6 @@
 		65B3F6341C739F7F000983D0 /* Platform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B3F6311C739F7F000983D0 /* Platform.swift */; };
 		65B3F6851C73BE9E000983D0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65B3F6841C73BE9E000983D0 /* UIKit.framework */; };
 		65B3F6871C73BEA7000983D0 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65B3F6861C73BEA7000983D0 /* QuartzCore.framework */; };
-		65B3F6891C73C093000983D0 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65B3F6881C73C093000983D0 /* Cocoa.framework */; };
 		65F06F8E1BE807040074498D /* IChartDataSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65F06F8D1BE807040074498D /* IChartDataSet.swift */; };
 		65F06F8F1BE807040074498D /* IChartDataSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65F06F8D1BE807040074498D /* IChartDataSet.swift */; };
 		65F06F941BE812210074498D /* IBarLineScatterCandleBubbleChartDataSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65F06F931BE812210074498D /* IBarLineScatterCandleBubbleChartDataSet.swift */; };
@@ -435,7 +430,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				06AEE7C21BDC4277009875AE /* FBSnapshotTestCase.framework in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -445,7 +439,6 @@
 		06AEE7A21BDC3F8B009875AE /* ChartsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChartsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		06AEE7A61BDC3F8B009875AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		06AEE7AD1BDC3FC6009875AE /* LineChartTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LineChartTests.swift; sourceTree = "<group>"; };
-		06AEE7C11BDC4277009875AE /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSnapshotTestCase.framework; path = Carthage/Build/iOS/FBSnapshotTestCase.framework; sourceTree = "<group>"; };
 		55E356521ADC63BF00A57971 /* BubbleChartView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BubbleChartView.swift; sourceTree = "<group>"; };
 		55E3565A1ADC63EB00A57971 /* BubbleChartRenderer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BubbleChartRenderer.swift; sourceTree = "<group>"; };
 		5B0032441B6524AD00B6A2FE /* Highlight.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Highlight.swift; sourceTree = "<group>"; };
@@ -533,9 +526,6 @@
 		5BCAA74F1C7CAD4C00F83F3B /* AnimatedViewPortJob.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimatedViewPortJob.swift; sourceTree = "<group>"; };
 		5BCAA7521C7CB03900F83F3B /* AnimatedMoveViewJob.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimatedMoveViewJob.swift; sourceTree = "<group>"; };
 		5BCAA7551C7CB0DE00F83F3B /* AnimatedZoomViewJob.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimatedZoomViewJob.swift; sourceTree = "<group>"; };
-		5BCB60CA1CFB936500E9945E /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS9.2.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
-		5BCB60CC1CFB936900E9945E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS9.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		5BCB60D01CFB937D00E9945E /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
 		5BD4C5751BCDBF6C00462351 /* BarChartDataProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarChartDataProvider.swift; sourceTree = "<group>"; };
 		5BD4C5761BCDBF6C00462351 /* BarLineScatterCandleBubbleChartDataProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarLineScatterCandleBubbleChartDataProvider.swift; sourceTree = "<group>"; };
 		5BD4C5771BCDBF6C00462351 /* BubbleChartDataProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BubbleChartDataProvider.swift; sourceTree = "<group>"; };
@@ -576,7 +566,6 @@
 		65B3F6311C739F7F000983D0 /* Platform.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Platform.swift; sourceTree = "<group>"; };
 		65B3F6841C73BE9E000983D0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		65B3F6861C73BEA7000983D0 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
-		65B3F6881C73C093000983D0 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		65F06F8D1BE807040074498D /* IChartDataSet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IChartDataSet.swift; sourceTree = "<group>"; };
 		65F06F931BE812210074498D /* IBarLineScatterCandleBubbleChartDataSet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IBarLineScatterCandleBubbleChartDataSet.swift; sourceTree = "<group>"; };
 		65F06F971BE812D90074498D /* ILineScatterCandleRadarChartDataSet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ILineScatterCandleRadarChartDataSet.swift; sourceTree = "<group>"; };
@@ -614,8 +603,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5BCB60D11CFB937D00E9945E /* QuartzCore.framework in Frameworks */,
-				65B3F6891C73C093000983D0 /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -623,8 +610,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5BCB60CB1CFB936500E9945E /* QuartzCore.framework in Frameworks */,
-				5BCB60CD1CFB936900E9945E /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -644,13 +629,8 @@
 		06AEE7C31BDC427F009875AE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				5BCB60D01CFB937D00E9945E /* QuartzCore.framework */,
-				5BCB60CA1CFB936500E9945E /* QuartzCore.framework */,
 				65B3F6861C73BEA7000983D0 /* QuartzCore.framework */,
-				5BCB60CC1CFB936900E9945E /* UIKit.framework */,
 				65B3F6841C73BE9E000983D0 /* UIKit.framework */,
-				65B3F6881C73C093000983D0 /* Cocoa.framework */,
-				06AEE7C11BDC4277009875AE /* FBSnapshotTestCase.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
